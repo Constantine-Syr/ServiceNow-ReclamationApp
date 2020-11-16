@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Reclamation" max_length="40" name="u_reclamation" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Issue" max_length="40" name="u_issue" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="40" name="u_requested_for_email" type="string"/>
+        <element label="Requested for not found" max_length="40" name="u_requested_for_not_found" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for" max_length="40" name="u_requested_for_not_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit" max_length="40" name="u_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Waiting for" max_length="40" name="u_waiting_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When Needed" max_length="40" name="u_when_needed" type="glide_date"/>
+    </element>
+</database>

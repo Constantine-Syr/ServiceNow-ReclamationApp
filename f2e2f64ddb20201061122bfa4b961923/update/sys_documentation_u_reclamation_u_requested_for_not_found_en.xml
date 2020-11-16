@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_requested_for_not_found" label="Requested for not found" language="en" table="u_reclamation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_requested_for_not_found</element>
+            <help/>
+            <hint/>
+            <label>Requested for not found</label>
+            <language>en</language>
+            <name>u_reclamation</name>
+            <plural>Requested for not founds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-16 16:00:53</sys_created_on>
+            <sys_id>677ab6c1db60201061122bfa4b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested for not found</sys_name>
+            <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+            <sys_update_name>sys_documentation_u_reclamation_u_requested_for_not_found_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-16 16:00:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
