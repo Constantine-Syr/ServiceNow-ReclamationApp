@@ -16,11 +16,11 @@
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 g_form.setMandatory('u_waiting_for', false);
-g_form.setVisible('u_waiting_for', false);
+g_form.setDisplay('u_waiting_for', false);
 	
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.setVisible('u_waiting_for', true);
+	g_form.setDisplay('u_waiting_for', true);
 	g_form.setMandatory('u_waiting_for', true);
 
 }]]></script_true>
@@ -32,7 +32,7 @@ g_form.setVisible('u_waiting_for', false);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e108c099db24201061122bfa4b9619ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Waiting for field</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
@@ -40,7 +40,7 @@ g_form.setVisible('u_waiting_for', false);
         <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
         <sys_update_name>sys_ui_policy_e108c099db24201061122bfa4b9619ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-16 21:45:02</sys_updated_on>
+        <sys_updated_on>2020-11-16 22:35:08</sys_updated_on>
         <table>u_reclamation</table>
         <ui_type>10</ui_type>
         <view/>
