@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Customer Service" name="Customer Service">a69d02137f232200ee2e108c3ffa9130</category>
         <collection>u_reclamation</collection>
-        <condition table="u_reclamation">state=3^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        <condition table="u_reclamation">stateCHANGESTO3^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ba4caa99dbe8201061122bfa4b961938</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Ready to Collect</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
         <sys_update_name>sysevent_email_action_ba4caa99dbe8201061122bfa4b961938</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-27 14:59:33</sys_updated_on>
+        <sys_updated_on>2020-12-01 18:58:59</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

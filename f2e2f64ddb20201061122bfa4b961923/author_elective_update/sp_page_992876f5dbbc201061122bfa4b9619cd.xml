@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>users_page</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 10:01:46</sys_created_on>
+        <sys_id>992876f5dbbc201061122bfa4b9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>users_page</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_update_name>sp_page_992876f5dbbc201061122bfa4b9619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 10:01:46</sys_updated_on>
+        <title>Users page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=992876f5dbbc201061122bfa4b9619cd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</application>
+        <file_path/>
+        <instance_id>3fc38b3cdbafd7c40e785d00cf961909</instance_id>
+        <instance_name>dev66938</instance_name>
+        <name>sp_page_992876f5dbbc201061122bfa4b9619cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>users_page</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-01 10:01:46</sys_created_on><sys_id>992876f5dbbc201061122bfa4b9619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>users_page</sys_name><sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package><sys_policy/><sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope><sys_update_name>sp_page_992876f5dbbc201061122bfa4b9619cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-01 10:01:46</sys_updated_on><title>Users page</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=992876f5dbbc201061122bfa4b9619cd"/></record_update>]]></payload>
+        <payload_hash>-1757743201</payload_hash>
+        <record_name>users_page</record_name>
+        <reverted_from/>
+        <source>8620cb55db2c201061122bfa4b961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 10:01:46</sys_created_on>
+        <sys_id>5d283e39dbbc201061122bfa4b9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761dc03c990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 10:01:46</sys_updated_on>
+        <type>Page</type>
+        <update_guid>95283e39b8bc2010ea37db4d9ca7d3bf</update_guid>
+        <update_guid_history>95283e39b8bc2010ea37db4d9ca7d3bf:-1757743201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="users_page">8866d44adbb0601061122bfa4b9619ea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:53:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>06f308e1dd084e148d516659a9e045d1</sys_id>
+        <sys_metadata>992876f5dbbc201061122bfa4b9619cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>users_page</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_scope_delete display_value="">249fab8a60b34c00a621ae1621b6ea40</sys_scope_delete>
+        <sys_update_name>sp_page_992876f5dbbc201061122bfa4b9619cd</sys_update_name>
+        <sys_update_version display_value="sp_page_992876f5dbbc201061122bfa4b9619cd">5d283e39dbbc201061122bfa4b9619bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:53:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

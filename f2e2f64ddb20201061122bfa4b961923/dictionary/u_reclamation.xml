@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Reclamation" max_length="40" name="u_reclamation" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="u_closed" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Closed by" max_length="32" name="u_closed_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Issue" mandatory="true" max_length="40" name="u_issue" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element label="Requested for not found" max_length="40" name="u_requested_for_not_found" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for" mandatory="true" max_length="40" name="u_requested_for_not_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="u_resolved" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" dependent="state" dependent_on_field="state" label="Resolved by" max_length="32" name="u_resolved_by" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Unit" mandatory="true" max_length="40" name="u_unit" type="string"/>
         <element label="Unit arrived" max_length="40" name="u_unit_arrived" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Waiting for" max_length="40" name="u_waiting_for" type="string"/>

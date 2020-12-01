@@ -18,10 +18,10 @@
     var emailStr = g_form.getValue('u_requested_for_email');
     if(!emailStr.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
         g_form.showErrorBox('u_requested_for_email', g_form.getValue('u_requested_for_email')+' is not a valid email address.  You must provide a valid email address.', true);
-		//return false
+	
 	} else {
 		g_form.hideErrorBox('u_requested_for_email');
-		//return true
+		
 	}
 
 
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb36dfc5dba0201061122bfa4b9619b1</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Email Adress Syntax Validate</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
         <sys_update_name>sys_script_client_cb36dfc5dba0201061122bfa4b9619b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-01 11:25:07</sys_updated_on>
+        <sys_updated_on>2020-12-01 18:11:10</sys_updated_on>
         <table>u_reclamation</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

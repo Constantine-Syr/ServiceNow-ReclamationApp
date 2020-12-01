@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <hide_portal_name>true</hide_portal_name>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 15:18:27</sys_created_on>
+        <sys_id>e7795fe8db30201061122bfa4b961939</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reclamation app</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_update_name>sp_portal_e7795fe8db30201061122bfa4b961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 15:30:02</sys_updated_on>
+        <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
+        <title>Reclamation app</title>
+        <ts_index_group/>
+        <url_suffix>reclamation_sp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=e7795fe8db30201061122bfa4b961939"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</application>
+        <file_path/>
+        <instance_id>3fc38b3cdbafd7c40e785d00cf961909</instance_id>
+        <instance_name>dev66938</instance_name>
+        <name>sp_portal_e7795fe8db30201061122bfa4b961939</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><hide_portal_name>true</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon/><kb_knowledge_base/><kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page><login_page/><logo/><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page><sc_category_page/><sp_chat_queue/><sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-27 15:18:27</sys_created_on><sys_id>e7795fe8db30201061122bfa4b961939</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Reclamation app</sys_name><sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package><sys_policy/><sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope><sys_update_name>sp_portal_e7795fe8db30201061122bfa4b961939</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-27 15:30:02</sys_updated_on><theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme><title>Reclamation app</title><ts_index_group/><url_suffix>reclamation_sp</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=e7795fe8db30201061122bfa4b961939"/></record_update>]]></payload>
+        <payload_hash>-569628392</payload_hash>
+        <record_name>Reclamation app</record_name>
+        <reverted_from/>
+        <source>8620cb55db2c201061122bfa4b961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 15:30:02</sys_created_on>
+        <sys_id>0becd3ecdb30201061122bfa4b9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1760a5358440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 15:30:02</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>43ecd3ec273020107101b886afe7c9d5</update_guid>
+        <update_guid_history>43ecd3ec273020107101b886afe7c9d5:-569628392,2f7c93ecc53020106dd58c9c00b85ee6:1790383111,994a5b6c6b302010e119497350cef400:1086908840</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reclamation app">c455580adbb0601061122bfa4b9619a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:48:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>3bdea30867f748009eb6591c24d8c400</sys_id>
+        <sys_metadata>e7795fe8db30201061122bfa4b961939</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reclamation app</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_scope_delete display_value="">249fab8a60b34c00a621ae1621b6ea40</sys_scope_delete>
+        <sys_update_name>sp_portal_e7795fe8db30201061122bfa4b961939</sys_update_name>
+        <sys_update_version display_value="sp_portal_e7795fe8db30201061122bfa4b961939">0becd3ecdb30201061122bfa4b9619d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:48:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

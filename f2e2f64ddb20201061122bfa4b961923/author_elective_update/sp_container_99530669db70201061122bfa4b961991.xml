@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Records - Test Page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="records">9553cae5db70201061122bfa4b96194a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 11:32:32</sys_created_on>
+        <sys_id>99530669db70201061122bfa4b961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records - Test Page - Container 1</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_update_name>sp_container_99530669db70201061122bfa4b961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 11:32:32</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</application>
+        <file_path/>
+        <instance_id>3fc38b3cdbafd7c40e785d00cf961909</instance_id>
+        <instance_name>dev66938</instance_name>
+        <name>sp_container_99530669db70201061122bfa4b961991</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Records - Test Page - Container 1</name><order>1</order><sp_page display_value="records">9553cae5db70201061122bfa4b96194a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-30 11:32:32</sys_created_on><sys_id>99530669db70201061122bfa4b961991</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Records - Test Page - Container 1</sys_name><sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package><sys_policy/><sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope><sys_update_name>sp_container_99530669db70201061122bfa4b961991</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-30 11:32:32</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1245718004</payload_hash>
+        <record_name>Records - Test Page - Container 1</record_name>
+        <reverted_from/>
+        <source>8620cb55db2c201061122bfa4b961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 11:32:32</sys_created_on>
+        <sys_id>59530669db70201061122bfa4b961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17618ecfaea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 11:32:32</sys_updated_on>
+        <type>Container</type>
+        <update_guid>915306695c70201096f20ab1bc3fd694</update_guid>
+        <update_guid_history>915306695c70201096f20ab1bc3fd694:-1245718004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Records - Test Page - Container 1">c496984adbb0601061122bfa4b96197c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:54:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>7c408eda85f84c1aba4a89201e092f44</sys_id>
+        <sys_metadata>99530669db70201061122bfa4b961991</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records - Test Page - Container 1</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_scope_delete display_value="">249fab8a60b34c00a621ae1621b6ea40</sys_scope_delete>
+        <sys_update_name>sp_container_99530669db70201061122bfa4b961991</sys_update_name>
+        <sys_update_version display_value="sp_container_99530669db70201061122bfa4b961991">59530669db70201061122bfa4b961994</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:54:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

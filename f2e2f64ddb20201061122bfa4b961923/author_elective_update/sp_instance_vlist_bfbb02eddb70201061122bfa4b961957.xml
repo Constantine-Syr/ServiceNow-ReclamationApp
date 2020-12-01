@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c4b167e0db70201061122bfa4b9619c8</sp_column>
+        <sp_page/>
+        <sp_widget display_value="List Respond">539a0381cb13020000f8d856634c9cdb</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 12:09:18</sys_created_on>
+        <sys_id>bfbb02eddb70201061122bfa4b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_update_name>sp_instance_vlist_bfbb02eddb70201061122bfa4b961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 12:09:18</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=bfbb02eddb70201061122bfa4b961957"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</application>
+        <file_path/>
+        <instance_id>3fc38b3cdbafd7c40e785d00cf961909</instance_id>
+        <instance_name>dev66938</instance_name>
+        <name>sp_instance_vlist_bfbb02eddb70201061122bfa4b961957</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">c4b167e0db70201061122bfa4b9619c8</sp_column><sp_page/><sp_widget display_value="List Respond">539a0381cb13020000f8d856634c9cdb</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-30 12:09:18</sys_created_on><sys_id>bfbb02eddb70201061122bfa4b961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package><sys_policy/><sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope><sys_update_name>sp_instance_vlist_bfbb02eddb70201061122bfa4b961957</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-30 12:09:18</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=bfbb02eddb70201061122bfa4b961957"/></record_update>]]></payload>
+        <payload_hash>1738579448</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8620cb55db2c201061122bfa4b961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 12:09:18</sys_created_on>
+        <sys_id>73bb02eddb70201061122bfa4b96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176190ea4880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 12:09:18</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>bbbb02ed45702010f4a629e587e7665a</update_guid>
+        <update_guid_history>bbbb02ed45702010f4a629e587e7665a:1738579448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8e16144adbb0601061122bfa4b961972</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:52:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>239201db83e94e91b922165ebb2aad61</sys_id>
+        <sys_metadata>bfbb02eddb70201061122bfa4b961957</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_scope_delete display_value="">249fab8a60b34c00a621ae1621b6ea40</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_bfbb02eddb70201061122bfa4b961957</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_bfbb02eddb70201061122bfa4b961957">73bb02eddb70201061122bfa4b96195b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:52:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

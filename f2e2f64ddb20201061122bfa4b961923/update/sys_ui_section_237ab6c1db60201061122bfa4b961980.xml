@@ -4,41 +4,41 @@
             <element>opened_at</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>8b5132f1dbbc201061122bfa4b961992</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>dd01b80edbf0601061122bfa4b961911</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_updated_on</element>
+            <element>u_resolved</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>475132f1dbbc201061122bfa4b961993</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>5901b80edbf0601061122bfa4b961912</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_on</element>
+            <element>u_closed</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>cb5132f1dbbc201061122bfa4b961993</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>dd01b80edbf0601061122bfa4b961912</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>435132f1dbbc201061122bfa4b961994</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>5501b80edbf0601061122bfa4b961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,41 +60,41 @@
             <element>opened_by</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>c75132f1dbbc201061122bfa4b961994</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>d901b80edbf0601061122bfa4b961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_updated_by</element>
+            <element>u_resolved_by</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>4f5132f1dbbc201061122bfa4b961994</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>5101b80edbf0601061122bfa4b961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_by</element>
+            <element>u_closed_by</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-01 09:32:07</sys_created_on>
-            <sys_id>c35132f1dbbc201061122bfa4b961995</sys_id>
+            <sys_created_on>2020-12-01 18:49:52</sys_created_on>
+            <sys_id>d501b80edbf0601061122bfa4b961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="u_reclamation" sys_domain="global" view="Default view">237ab6c1db60201061122bfa4b961980</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-01 09:32:07</sys_updated_on>
+            <sys_updated_on>2020-12-01 18:49:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
