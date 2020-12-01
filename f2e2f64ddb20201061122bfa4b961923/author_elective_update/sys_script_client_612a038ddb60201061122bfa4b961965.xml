@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If requested for is in the database, sets requested for email to it's email.</description>
+        <field>u_requested_for</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Email Field NOT ACTIVE</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading && !g_form.isNewRecord() || newValue === '' || newValue == oldValue) {
+        return;
+    }
+var ga = new GlideAjax('ClaimsUtilsAjax');
+ ga.addParam('sysparm_name', 'getEmailAdress');
+ ga.addParam('sysparm_user', newValue);
+ ga.getXMLAnswer(callback);
+	
+}   
+   
+function callback(response){
+	g_form.setValue('u_requested_for_email', response);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-16 17:13:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>612a038ddb60201061122bfa4b961965</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate Email Field NOT ACTIVE</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_update_name>sys_script_client_612a038ddb60201061122bfa4b961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 14:57:52</sys_updated_on>
+        <table>u_reclamation</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</application>
+        <file_path/>
+        <instance_id>3fc38b3cdbafd7c40e785d00cf961909</instance_id>
+        <instance_name>dev66938</instance_name>
+        <name>sys_script_client_612a038ddb60201061122bfa4b961965</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;If requested for is in the database, sets requested for email to it's email.&lt;/description&gt;&lt;field&gt;u_requested_for&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Email Field NOT ACTIVE&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading &amp;&amp; !g_form.isNewRecord() || newValue === '' || newValue == oldValue) {
+        return;
+    }
+var ga = new GlideAjax('ClaimsUtilsAjax');
+ ga.addParam('sysparm_name', 'getEmailAdress');
+ ga.addParam('sysparm_user', newValue);
+ ga.getXMLAnswer(callback);
+	
+}   
+   
+function callback(response){
+	g_form.setValue('u_requested_for_email', response);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-11-16 17:13:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;612a038ddb60201061122bfa4b961965&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Email Field NOT ACTIVE&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923"&gt;f2e2f64ddb20201061122bfa4b961923&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reclamation"&gt;f2e2f64ddb20201061122bfa4b961923&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_612a038ddb60201061122bfa4b961965&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-27 14:57:52&lt;/sys_updated_on&gt;&lt;table&gt;u_reclamation&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>234848265</payload_hash>
+        <record_name>Populate Email Field NOT ACTIVE</record_name>
+        <reverted_from/>
+        <source>8620cb55db2c201061122bfa4b961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 14:57:52</sys_created_on>
+        <sys_id>bb85df68db30201061122bfa4b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1760a35e1cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 14:57:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3785df68a9302010e37a5dd03ce0894a</update_guid>
+        <update_guid_history>3785df68a9302010e37a5dd03ce0894a:234848265,771b87cd8560201098c39f666269e4aa:1466697944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 11:36:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2bc99ddb2f084ed89e0dc1c574bf5d10</sys_id>
+        <sys_metadata>612a038ddb60201061122bfa4b961965</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Email Field NOT ACTIVE</sys_name>
+        <sys_package display_value="Reclamation" source="f2e2f64ddb20201061122bfa4b961923">f2e2f64ddb20201061122bfa4b961923</sys_package>
+        <sys_parent display_value="Reclamation">2bb4b2cddb20201061122bfa4b96198c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reclamation">f2e2f64ddb20201061122bfa4b961923</sys_scope>
+        <sys_scope_delete display_value="">249fab8a60b34c00a621ae1621b6ea40</sys_scope_delete>
+        <sys_update_name>sys_script_client_612a038ddb60201061122bfa4b961965</sys_update_name>
+        <sys_update_version display_value="sys_script_client_612a038ddb60201061122bfa4b961965">bb85df68db30201061122bfa4b96194a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 11:36:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
